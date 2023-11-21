@@ -5,24 +5,33 @@
   background-color:#ffedf1;
 }
 
-.navbar {
-  padding: 10px 20px;
+/* Header */
+
+header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .name {
-  color: #2f8582;
-  font-size: 28px;
+  padding-left: 50px;
+  color: #452c63cb;
+  background-color: cornsilk; 
 }
 
-nav ul li {
-  list-style-type: none;
+.buttons {
+  list-style: none;
+  padding-right: 60px;
+  font-size: 20px;
+  color: #452c63cb;
+}
+
+.buttons li {
   display: inline-block;
-  padding: 10px 20px;
-  color: #2f8582;
+  padding: 0px 20px;
   
 }
-
 
 body {
   margin: 0;
