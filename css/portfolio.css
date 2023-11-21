@@ -1,6 +1,28 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:#ffedf1;
 }
+
+.navbar {
+  padding: 10px 20px;
+  display: flex;
+}
+
+.name {
+  color: #2f8582;
+  font-size: 28px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #2f8582;
+  
+}
+
 
 body {
   margin: 0;
