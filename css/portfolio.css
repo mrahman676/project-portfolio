@@ -25,13 +25,38 @@ header {
   padding-right: 60px;
   font-size: 20px;
   color: #452c63cb;
+  text-decoration: none;
 }
 
 .buttons li {
   display: inline-block;
   padding: 0px 20px;
-  
 }
+
+/* Banner */
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+  border: solid;
+  height: 20vh;
+  align-items: flex-end;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  background-image: url(./images/Background.jpg);
+
+  background-size: 1550px 150px;
+  background-repeat:no-repeat;
+}
+
+.banner h2 {
+  font-size: 20px;
+  background-color: cornsilk;
+  color: #452c63cb;
+}
+
+
+
 
 body {
   margin: 0;
@@ -41,7 +66,8 @@ body {
 }
 
 h1,
-h2,
+
+h2
 h3,
 h4,
 h5,
