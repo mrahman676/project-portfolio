@@ -38,15 +38,15 @@ header {
 .banner {
   display: flex;
   justify-content: flex-end;
-  border: solid;
+  border:transparent;
   height: 20vh;
   align-items: flex-end;
   padding-right: 50px;
   padding-bottom: 20px;
   background-image: url(./images/Background.jpg);
-
   background-size: 1550px 150px;
   background-repeat:no-repeat;
+  margin-top: 20px;
 }
 
 .banner h2 {
@@ -55,9 +55,16 @@ header {
   color: #452c63cb;
 }
 
+/* About Me */
 
-
-
+.about-me {
+  border: solid;
+  display: flex;
+  height: 50vh;
+}
+main {
+  margin-top: 20px;
+}
 body {
   margin: 0;
   padding: 0;
