@@ -5,6 +5,10 @@
   background-color:#ffedf1;
 }
 
+:root {
+--text-color:  #452c63cb;
+--text-bg: cornsilk; 
+}
 /* Header */
 
 header {
@@ -16,15 +20,15 @@ header {
 
 .name {
   padding-left: 50px;
-  color: #452c63cb;
-  background-color: cornsilk; 
+  color: var(--text-color);
+  background-color: var(--text-bg);
 }
 
 .buttons {
   list-style: none;
   padding-right: 60px;
   font-size: 20px;
-  color: #452c63cb;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -51,8 +55,8 @@ header {
 
 .banner h2 {
   font-size: 20px;
-  background-color: cornsilk;
-  color: #452c63cb;
+  background-color: var(--text-bg);
+  color: var(--text-color);
 }
 
 /* About Me */
@@ -65,11 +69,13 @@ header {
   padding-left: 100px;
   border-style: none solid none none;
   padding-right: 10px;
+  color: var(--text-color);
 }
 
 .about-me p {
   padding-left: 20px;
   font-size: 15px;
+  color: var(--text-color);
 }
 
 main {
