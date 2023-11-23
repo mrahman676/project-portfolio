@@ -10,6 +10,7 @@
 --text-bg: cornsilk; 
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -52,6 +53,9 @@ header {
   justify-content: flex-end;
   height: 20vh;
   align-items: flex-end;
+}
+
+#banner-style {
   padding-right: 50px;
   padding-bottom: 20px;
   background-image: url(./images/Background.jpg);
@@ -122,7 +126,7 @@ main {
 
 .work-grid-style {
   width: 58%;
-  border: solid;
+  border: 10px solid var(--text-color);
   margin-left: 20px;
   height: 500px;
 }
