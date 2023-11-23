@@ -115,7 +115,7 @@ main {
   }
 
   .work-header {
-    padding-left: 50px;
+    padding-left: 8px;
     border-style: none solid none none;
     padding-right: 10px;
     color: var(--text-color);
@@ -150,13 +150,19 @@ main {
 }
 
 #pro-style1 {
-  border: 5px solid var(--text-color);
+  border: 1px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
   background-image: url(./images/digital-marketing-meeting.jpg);
   background-size: cover;
-  background-size: cover;
   background-position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+}
+
+.first-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 #ProjectTitle1 {
@@ -174,12 +180,14 @@ main {
 }
 
 #pro-style2 {
-  border: 5px solid var(--text-color);
+  border: 1px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
   background-image: url(./images/Vermin\ Album\ Cover\ Preview.png);
   background-size: cover;
   background-position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
 }
 
 #ProjectTitle2 {
@@ -187,6 +195,11 @@ main {
   color: var(--text-color);
   width: 150px;
   height: 30px;
+}
+
+.second-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 .third-project {
@@ -197,12 +210,14 @@ main {
 }
 
 #pro-style3 {
-  border: 5px solid var(--text-color);
+  border: 1px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
   background-image: url(./images/Direction.jpeg);
   background-size: cover;
   background-position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
 }
 
 #ProjectTitle3 {
@@ -212,6 +227,12 @@ main {
   height: 30px;
 }
 
+.third-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+
 .fourth-project {
   grid-area: project4;
   display: flex;
@@ -220,12 +241,14 @@ main {
 }
 
 #pro-style4 {
-  border: 5px solid var(--text-color);
+  border: 1px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
   background-image: url(./images/New-Normal.JPG);
   background-size: cover;
   background-position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
 }
 
 #ProjectTitle4 {
@@ -233,6 +256,11 @@ main {
   color: var(--text-color);
   width: 320px;
   height: 30px;
+}
+
+.fourth-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 .fifth-project {
@@ -243,12 +271,14 @@ main {
 }
 
 #pro-style5 {
-  border: 5px solid var(--text-color);
+  border: 1px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
   background-image: url(./images/Three-Lions.PNG);
   background-size: cover;
   background-position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
 }
 
 #ProjectTitle5 {
@@ -258,6 +288,10 @@ main {
   height: 30px;
 }
 
+.fifth-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
 
 /* Contact Me */
 
@@ -269,7 +303,7 @@ main {
 }
 
 .contact-section h2 {
-  padding-left: 247px;
+  padding-left: 224px;
   border-style: none solid none none;
   padding-right: 10px;
   color: var(--text-color);
