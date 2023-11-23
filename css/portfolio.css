@@ -10,6 +10,11 @@
 --text-bg: cornsilk; 
 }
 
+@media (width < 600px) {
+nav { width: 100%;
+}
+}
+
 
 body {
   margin: 0;
@@ -115,7 +120,7 @@ main {
   }
 
   .work-header {
-    padding-left: 8px;
+    padding-left: 48px;
     border-style: none solid none none;
     padding-right: 10px;
     color: var(--text-color);
@@ -303,7 +308,7 @@ main {
 }
 
 .contact-section h2 {
-  padding-left: 224px;
+  padding-left: 252px;
   border-style: none solid none none;
   padding-right: 10px;
   color: var(--text-color);
@@ -324,10 +329,4 @@ main {
   padding: 0px 20px;
 }
 
-h6 {
-  margin: 0;
-}
 
-p {
-  margin: 0;
-}
