@@ -144,57 +144,118 @@ main {
 
 .first-project {
   grid-area: project1;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 
 #pro-style1 {
   border: 5px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
-  background-image: url(./images/02-portfolio-1.jpg);
+  background-image: url(./images/digital-marketing-meeting.jpg);
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+#ProjectTitle1 {
+  font-size: 20px;
+  color: var(--text-color);
+  width: 210px;
+  height: 30px;
 }
 
 .second-project {
   grid-area: project2;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 
 #pro-style2 {
   border: 5px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
-  background-image: url(./images/02-portfolio-2.jpg);
+  background-image: url(./images/Vermin\ Album\ Cover\ Preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#ProjectTitle2 {
+  font-size: 20px;
+  color: var(--text-color);
+  width: 150px;
+  height: 30px;
 }
 
 .third-project {
   grid-area: project3;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 
 #pro-style3 {
   border: 5px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
-  background-image: url(./images/02-portfolio-3.jpg);
+  background-image: url(./images/Direction.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#ProjectTitle3 {
+  font-size: 20px;
+  color: var(--text-color);
+  width: 170px;
+  height: 30px;
 }
 
 .fourth-project {
   grid-area: project4;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 
 #pro-style4 {
   border: 5px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
-  background-image: url(./images/02-portfolio-4.jpg);
+  background-image: url(./images/New-Normal.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+#ProjectTitle4 {
+  font-size: 20px;
+  color: var(--text-color);
+  width: 320px;
+  height: 30px;
 }
 
 .fifth-project {
   grid-area: project5;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 
 #pro-style5 {
   border: 5px solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
-  background-image: url(./images/02-run-buddy.jpg);
+  background-image: url(./images/Three-Lions.PNG);
+  background-size: cover;
+  background-position: center;
+}
+
+#ProjectTitle5 {
+  font-size: 20px;
+  color: var(--text-color);
+  width: 140px;
+  height: 30px;
 }
 
 
