@@ -14,7 +14,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 1.5;
 }
 
@@ -51,17 +51,17 @@ header {
 .banner {
   display: flex;
   justify-content: flex-end;
-  height: 20vh;
   align-items: flex-end;
-}
-
-#banner-style {
+  height: 20vh;
   padding-right: 50px;
   padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+#banner-image {
   background-image: url(./images/Background.jpg);
   background-size: 1750px 150px;
-  background-repeat:no-repeat;
-  margin-top: 20px;
+  background-repeat: no-repeat;
 }
 
 .banner h2 {
@@ -126,9 +126,9 @@ main {
 
 .work-grid-style {
   width: 58%;
-  border: 10px solid var(--text-color);
   margin-left: 20px;
   height: 500px;
+  border: 5px solid var(--text-color);
 }
 
 #work-grid {
@@ -146,24 +146,55 @@ main {
   grid-area: project1;
 }
 
+#pro-style1 {
+  border: 3px dotted var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-image: url(./images/02-portfolio-1.jpg);
+}
+
 .second-project {
   grid-area: project2;
+}
+
+#pro-style2 {
+  border: 3px dotted var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-image: url(./images/02-portfolio-2.jpg);
 }
 
 .third-project {
   grid-area: project3;
 }
 
+#pro-style3 {
+  border: 3px dotted var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-image: url(./images/02-portfolio-3.jpg);
+}
+
 .fourth-project {
   grid-area: project4;
+}
+
+#pro-style4 {
+  border: 3px dotted var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-image: url(./images/02-portfolio-4.jpg);
 }
 
 .fifth-project {
   grid-area: project5;
 }
 
-#style {
-  border: solid;
+#pro-style5 {
+  border: 3px dotted var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-image: url(./images/02-run-buddy.jpg);
 }
 
 
