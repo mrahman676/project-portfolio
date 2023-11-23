@@ -10,6 +10,13 @@
 --text-bg: cornsilk; 
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
 /* Header */
 
 header {
@@ -99,7 +106,8 @@ main {
 
 .work {
   display: flex;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   }
 
   .work-header {
@@ -150,23 +158,42 @@ main {
   grid-area: project5;
 }
 
-
-
-
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+#style {
+  border: solid;
 }
 
-h1,
 
-h2
-h3,
-h4,
-h5,
+/* Contact Me */
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.contact-section h2 {
+  padding-left: 247px;
+  border-style: none solid none none;
+  padding-right: 10px;
+  color: var(--text-color);
+  font-size: 25px;
+  height: 100px;
+}
+
+.contact-buttons {
+  list-style: none;
+  font-size: 20px;
+  color: var(--text-color);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.contact-buttons li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
 h6 {
   margin: 0;
 }
