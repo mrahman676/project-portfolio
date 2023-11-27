@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   background-color:var(--text-bg);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 :root {
@@ -10,16 +11,35 @@
 --text-bg: cornsilk; 
 }
 
-@media (width < 600px) {
-nav { width: 100%;
-}
+/* max-width - From 0px or min-width to max-width value 
+The display should be AT MAX of max-width value and below
+*/
+/* min-width - The display should be AT LEAST of min-width value and above*/
+
+
+/* @media screen and (max-width: 880px) and (min-width: 800px) {
+  header{
+    display: block;
+    background-color: green;
+  }
 }
 
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  header{
+    display: flex;
+    background-color: yellow;
+  }
+} */
+
+/* @media (max-width: 878px) {
+  .name {
+    font-size: 1.5rem;
+  }
+} */
 
 body {
   margin: 0;
   padding: 0;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 1.5;
 }
 
@@ -29,26 +49,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 3vh;
 }
 
 .name {
-  padding-left: 50px;
+  padding-left: 3vw;
   color: var(--text-color);
   background-color: var(--text-bg);
+  font-size: 2rem;
 }
 
 .buttons {
   list-style: none;
-  padding-right: 60px;
-  font-size: 20px;
+  padding-right: 3vw;
+  font-size: 1.3rem;
   color: var(--text-color);
   text-decoration: none;
 }
 
 .buttons li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0vh 1vw;
 }
 
 /* Banner */
@@ -57,20 +78,20 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  height: 20vh;
-  padding-right: 50px;
-  padding-bottom: 20px;
-  margin-top: 20px;
+  height: 20vh; 
+  padding-right: 2vw;
+  padding-bottom: 3vh;
+  margin-top: 2vh;
 }
 
 #banner-image {
   background-image: url(./images/Background.jpg);
-  background-size: 1750px 150px;
+  background-size: 100vw 20vh;
   background-repeat: no-repeat;
 }
 
 .banner h2 {
-  font-size: 20px;
+  font-size: 1.2rem;
   background-color: var(--text-bg);
   color: var(--text-color);
 }
@@ -78,62 +99,62 @@ header {
 /* Main Section */
 
 main {
-  margin-top: 20px;
+  margin-top: 3vh;
+}
+
+#section-header {
+  font-size: 1.7rem;
+  padding-right: 1vw;
+  border-style: none solid none none;
+  color: var(--text-color);
 }
 
 /* About Me */
 
 .about-me {
   display: flex;
-  margin-bottom: 30px;
 }
 
-.about-me img {
-  height: 200px;
-  width: 200px;
-  border: 8px dotted var(--text-color);
-  border-radius: 50%;
-  margin-left: 20px;
+.para {
+  display: flex;
 }
+
 .about-me h2 {
-  padding-left: 50px;
-  border-style: none solid none none;
-  padding-right: 10px;
-  color: var(--text-color);
-  font-size: 25px;
-  height: 180px;
+  padding-left: 3.8vw;
+  height: 19vh;
 }
+.about-me img {
+  height: 25vh;
+  border: 0.5rem dotted var(--text-color);
+  border-radius: 50rem;
+  margin-left: 2vw;
+}
+
 .about-me p {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 20px;
+  padding-left: 1.5vw;
+  font-size: 1.3rem;
   color: var(--text-color);
-  max-width: 450px;
+  max-width: 26vw;
 }
 
 /* Work Portfolio */
 
 .work {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 2vh;
   }
 
-  .work-header {
-    padding-left: 48px;
-    border-style: none solid none none;
-    padding-right: 10px;
-    color: var(--text-color);
-    font-size: 25px;
-    height: 500px;
-    margin-left: 268px;
+.work-header {
+    padding-left: 5vw;
+    height: 62vh;
+    padding-left: 20.7vw;
 }
 
 .work-grid-style {
-  width: 58%;
-  margin-left: 20px;
-  height: 500px;
-  grid-gap: 10px;
+  width: 50vw;
+  margin-left: 1.5vw;
+  height: 62vh;
+  grid-gap: 1rem;
 }
 
 #work-grid {
@@ -149,50 +170,46 @@ main {
 
 .first-project {
   grid-area: project1;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 10px;
+  background-image: url(./images/digital-marketing-meeting.jpg);
 }
 
-#pro-style1 {
-  border: 1px solid var(--text-color);
+.second-project {
+  grid-area: project2;
+  background-image: url(./images/Vermin\ Album\ Cover\ Preview.png);
+}
+
+.third-project {
+  grid-area: project3;
+  background-image: url(./images/Direction.jpeg);
+}
+
+.fourth-project {
+  grid-area: project4;
+  background-image: url(./images/New-Normal.JPG);
+}
+
+.fifth-project {
+  grid-area: project5;
+  background-image: url(./images/Three-Lions.PNG);
+}
+
+#proj-style {
+  display: flex;
+  align-items: flex-end;
+  border: 0.1rem solid var(--text-color);
   cursor: pointer;
   transition: background-color 0.3s;
-  background-image: url(./images/digital-marketing-meeting.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
   box-shadow: 0 0 5px;
+  padding-bottom: 1vh;
 }
-
-.first-project:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-}
-
 #ProjectTitle1 {
   font-size: 20px;
   color: var(--text-color);
   width: 210px;
   height: 30px;
-}
-
-.second-project {
-  grid-area: project2;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 10px;
-}
-
-#pro-style2 {
-  border: 1px solid var(--text-color);
-  cursor: pointer;
-  transition: background-color 0.3s;
-  background-image: url(./images/Vermin\ Album\ Cover\ Preview.png);
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-  box-shadow: 0 0 5px;
 }
 
 #ProjectTitle2 {
@@ -201,28 +218,29 @@ main {
   width: 150px;
   height: 30px;
 }
+.first-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
 
 .second-project:hover {
   transform: scale(1.1);
   transition: 0.3s ease;
 }
 
-.third-project {
-  grid-area: project3;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 10px;
+.third-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
-#pro-style3 {
-  border: 1px solid var(--text-color);
-  cursor: pointer;
-  transition: background-color 0.3s;
-  background-image: url(./images/Direction.jpeg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-  box-shadow: 0 0 5px;
+.fourth-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.fifth-project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 #ProjectTitle3 {
@@ -232,58 +250,11 @@ main {
   height: 30px;
 }
 
-.third-project:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-}
-
-
-.fourth-project {
-  grid-area: project4;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 10px;
-}
-
-#pro-style4 {
-  border: 1px solid var(--text-color);
-  cursor: pointer;
-  transition: background-color 0.3s;
-  background-image: url(./images/New-Normal.JPG);
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-  box-shadow: 0 0 5px;
-}
-
 #ProjectTitle4 {
   font-size: 20px;
   color: var(--text-color);
   width: 320px;
   height: 30px;
-}
-
-.fourth-project:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-}
-
-.fifth-project {
-  grid-area: project5;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 10px;
-}
-
-#pro-style5 {
-  border: 1px solid var(--text-color);
-  cursor: pointer;
-  transition: background-color 0.3s;
-  background-image: url(./images/Three-Lions.PNG);
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-  box-shadow: 0 0 5px;
 }
 
 #ProjectTitle5 {
@@ -293,27 +264,19 @@ main {
   height: 30px;
 }
 
-.fifth-project:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-}
 
 /* Contact Me */
 
 .contact-section {
   display: flex;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
 
 .contact-section h2 {
-  padding-left: 252px;
-  border-style: none solid none none;
-  padding-right: 10px;
-  color: var(--text-color);
-  font-size: 25px;
-  height: 100px;
+  padding-left: 16.6vw;
+  height: 10vh;
 }
 
 .contact-buttons {
@@ -329,4 +292,14 @@ main {
   padding: 0px 20px;
 }
 
+/* Footer */
 
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-left: 170px;
+}
+
+.footer p {
+  color: var(--text-color);
+}
