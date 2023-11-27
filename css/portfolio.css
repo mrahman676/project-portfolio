@@ -120,7 +120,7 @@ main {
 }
 
 .about-me h2 {
-  padding-left: 3.8vw;
+  padding-left: 3.75vw;
   height: 19vh;
 }
 .about-me img {
@@ -141,7 +141,6 @@ main {
 
 .work {
   display: flex;
-  margin-top: 2vh;
   }
 
 .work-header {
@@ -166,6 +165,19 @@ main {
   "project1 project1"
   "project2 project3"
   "project4 project5"
+}
+
+#proj-style {
+  display: flex;
+  align-items: flex-end;
+  border: 0.1rem solid var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem;
+  padding-bottom: 1vh;
 }
 
 .first-project {
@@ -193,103 +205,61 @@ main {
   background-image: url(./images/Three-Lions.PNG);
 }
 
-#proj-style {
-  display: flex;
-  align-items: flex-end;
-  border: 0.1rem solid var(--text-color);
-  cursor: pointer;
-  transition: background-color 0.3s;
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-  box-shadow: 0 0 5px;
-  padding-bottom: 1vh;
-}
-#ProjectTitle1 {
-  font-size: 20px;
-  color: var(--text-color);
-  width: 210px;
-  height: 30px;
-}
-
-#ProjectTitle2 {
-  font-size: 20px;
-  color: var(--text-color);
-  width: 150px;
-  height: 30px;
-}
-.first-project:hover {
+.first-project:hover, .second-project:hover, .third-project:hover, .fourth-project:hover, .fifth-project:hover {
   transform: scale(1.1);
   transition: 0.3s ease;
 }
 
-.second-project:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-}
-
-.third-project:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-}
-
-.fourth-project:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-}
-
-.fifth-project:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-}
-
-#ProjectTitle3 {
-  font-size: 20px;
+.PT {
+  font-size: 1.2rem;
   color: var(--text-color);
-  width: 170px;
-  height: 30px;
+  height: 3.3vh;
+}
+#width1 {
+  width: 12vw;
 }
 
-#ProjectTitle4 {
-  font-size: 20px;
-  color: var(--text-color);
-  width: 320px;
-  height: 30px;
+#width2 {
+  width: 8.5vw;
 }
 
-#ProjectTitle5 {
-  font-size: 20px;
-  color: var(--text-color);
-  width: 140px;
-  height: 30px;
+#width3 {
+  width: 9.7vw;
 }
 
+#width4 {
+  width: 18vw;
+}
+
+#width5 {
+  width: 8vw;
+}
 
 /* Contact Me */
 
 .contact-section {
   display: flex;
   align-items: center;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
 }
 
 .contact-section h2 {
-  padding-left: 16.6vw;
+  padding-left: 16.65vw;
   height: 10vh;
 }
 
 .contact-buttons {
   list-style: none;
-  font-size: 20px;
+  font-size: 1.3rem;
   color: var(--text-color);
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 1vw;
 }
 
 .contact-buttons li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0rem 1.3rem;
 }
 
 /* Footer */
@@ -297,7 +267,7 @@ main {
 .footer {
   display: flex;
   justify-content: center;
-  padding-left: 170px;
+  padding-left: 10vw;
 }
 
 .footer p {
