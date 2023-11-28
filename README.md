@@ -34,7 +34,7 @@ This is a landing page for my work portfolio. The aim of created this page was t
 
 Please check out a preview of the page here:
 
-![Project Portfolio Screenshot](css/images/Portfolio-Screenshot.png)
+![Project Portfolio Screenshot](css/images/port.png)
 
 ## License
 
