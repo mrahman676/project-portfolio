@@ -11,8 +11,33 @@
 --text-bg: cornsilk; 
 }
 
-@media screen and (max-width: 722px) {
-}
+/* @media screen and (max-width: 722px) {
+
+  #resize {
+    display: block;
+    text-align: center;
+  }
+
+  #img-size {
+    display: none;
+  }
+
+  #about #section-header {
+    font-size: 1rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+    max-width: 42vw;
+  }
+
+  #work-link {
+    margin-top: 10vh;
+  }
+  #work-link #section-header {
+    font-size: 1rem;
+  }
+} */
 
 body {
   margin: 0;
@@ -97,8 +122,8 @@ main {
 }
 
 .about-me h2 {
-  padding-left: 3.75vw;
-  height: 19vh;
+  padding-left: 3.1vw;
+  height: 22vh;
 }
 .about-me img {
   height: 25vh;
@@ -111,13 +136,14 @@ main {
   padding-left: 1.5vw;
   font-size: 1.3rem;
   color: var(--text-color);
-  max-width: 26vw;
+  max-width: 32vw;
 }
 
 /* Work Portfolio */
 
 .work {
   display: flex;
+  margin-top: 5vh;
   }
 
 .work-header {
@@ -188,7 +214,7 @@ main {
 }
 
 .PT {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--text-color);
   height: 3.3vh;
 }
@@ -217,12 +243,12 @@ main {
 .contact-section {
   display: flex;
   align-items: center;
-  margin-top: 5vh;
-  margin-bottom: 2vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  margin-left: 15.8vw;
 }
 
 .contact-section h2 {
-  padding-left: 16.65vw;
   height: 10vh;
 }
 
