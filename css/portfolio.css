@@ -11,15 +11,17 @@
 --text-bg: cornsilk; 
 }
 
-@media screen and (max-width: 722px) {
+/* Media Queries */
+
+@media screen and (max-width: 735px) {
 
   #resize {
     display: block;
     text-align: center;
   }
 
-  #img-size {
-    display: none;
+  #resize .buttons {
+    padding-left: 6vw;
   }
 
   #about #section-header {
@@ -28,11 +30,10 @@
 
   #about p {
     font-size: 1rem;
-    max-width: 42vw;
   }
 
   #work-link {
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
   #work-link #section-header {
     font-size: 1rem;
@@ -45,8 +46,38 @@
   #contact .contact-buttons {
     font-size: 1rem;
   }
+}
 
+@media screen and (max-width: 657px) {
 
+  #width {
+    display: none;
+  }
+  }
+  
+@media screen and (max-width: 587px) {
+
+    .contact-section .contact-buttons #youtube {
+      display:none;
+    }
+    }
+
+  @media screen and (max-width: 445px) {
+
+      .contact-section .contact-buttons #spotify {
+        display:none;
+      }
+      }
+
+@media screen and (max-width: 339px) {
+
+#img-size { 
+  display: none;
+}
+
+#banner-size {
+  justify-content: center;
+}
 }
 
 body {
@@ -139,7 +170,7 @@ main {
 }
 
 .about-me h2 {
-  height: 15vh;
+  height: 14vh;
   width: 20vw;
   text-align: end;
 }
@@ -232,7 +263,9 @@ main {
   height: 3.3vh;
 }
 #width {
-  width: 100vw;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 248, 220, 0.8);
 }
 
 /* Contact Me */
