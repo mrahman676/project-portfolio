@@ -133,10 +133,10 @@ main {
 }
 
 .about-me p {
-  padding-left: 1.5vw;
+  padding-left: 2.5vw;
   font-size: 1.3rem;
   color: var(--text-color);
-  max-width: 32vw;
+  max-width: 33vw;
 }
 
 /* Work Portfolio */
@@ -154,7 +154,7 @@ main {
 
 .work-grid-style {
   width: 63vw;
-  margin-left: 1.5vw;
+  margin-left: 2.3vw;
   height: 62vh;
   grid-gap: 1rem;
 }
